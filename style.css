@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=M+PLUS+Rounded+1c:wght@100;300&family=Monsieur+La+Doulaise&family=Send+Flowers&family=Updock&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+    
+body{
+    font-size: 15px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    display: flex;
+  align-items: center;
+    justify-content: center; 
+    /* margin:0 auto; */
+    height: 100vh;
+    /* overflow: hidden; */
+    }
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Abril Fatface', cursive;
+    color:rgba(62, 61, 61, 0.537);
+}
+
+h5{
+    text-align: center;
+    text-transform: uppercase;
+    width: 105px;
+    box-shadow: rgba(0, 0, 0, 0.088) 0px 14px 28px, rgba(0, 0, 0, 0.058) 0px 10px 10px; 
+    background-color: rgba(128, 128, 128, 0.051);
+    margin-top: 10px;
+    /* border:1px solid rgba(62, 61, 61, 0.253);; */
+}
+p{
+    line-height: 2.2;
+    color:rgba(62, 61, 61, 0.911);
+    margin-top: 20px;
+}
+h3{
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 5px 0 3px 0;
+    color:rgba(128, 128, 128, 0.911);
+
+}
+.bio-section{
+    padding: 3rem;
+background-color: rgba(148, 146, 146, 0.14);
+box-sizing: border-box;
+contain: content;
+
+}
+.card{
+    /* background-color: green; */
+    /* height: 80vh; */
+    justify-content: space-between;
+    width: 80%;
+}
+.box{
+    /* background-color: red; */
+    height: 30rem;
+    display: flex;
+}
+    img{
+        width: 20rem;
+        height: 30rem;
+    }
+
+
+
+
+ @media screen and (max-width: 1440px) {
+    body {
+        background-color: rgba(222, 236, 236, 0.536);
+        height: 80vh;
+        font-size: 20px;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        padding: 0;
+        margin: auto;
+        }
+
+    h1{
+        font: size 10px;
+        text-align: center;
+        font-weight: lighter;
+    }
+    h3{
+        font-size: 45px;
+        text-align: center;
+    }
+    h5{
+        width: 150px;
+        text-align: center;
+      display: none;
+    }
+    p{
+            font-size: small;
+            text-align: center;
+        }
+
+    img{
+            width: 34rem;
+            height: 30rem;;
+      }
+
+    .image{
+        display: flex;
+        justify-content: center;
+      }
+
+    .card{
+        display: flex;
+        justify-content: center;
+     }
+    .box{
+        display: flex;
+        flex-direction: column;
+        }
+    
+
+.bio-section{
+        height: 90vh;
+        max-width: 550px;
+        grid-template-rows:480px  1fr ;
+        margin: 0 auto;
+        justify-items: center;
+   
+} 
+  
+    }
+
+
+    
